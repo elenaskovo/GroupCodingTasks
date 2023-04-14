@@ -1,0 +1,5 @@
+condition
+if(condition){
+// code that we want to execute ones the condition is TRUE
+}
+any data type - relational operator( == != >< >= <=).
