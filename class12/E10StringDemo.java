@@ -1,6 +1,6 @@
 package class12;
 
-public class E10StringDemo {
+//public class E10StringDemo {
    /* public static void main(String[] args) {
         String username="elenasko";
         String password="java2023";

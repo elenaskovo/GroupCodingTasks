@@ -1,0 +1,26 @@
+types of variables w.r.t.scope(coverage,visibility and accessibility)
+there are three types of variables with respect to scope.
+
+local - created inside block of codes they can only be accessed with that block inside methods if statment switch statements
+benefits: 1. shorter in memory the moment that block of cod available to re-use
+          2.re-use the samename for other variables in  other other block of code
+downside: 1.limited visibility, cant be used outside of the block in which they are created
+          2.initialization is mandatory for local variables, and failure to do so result in compilation error
+
+instance - created outside of any block like loop,if statements etc but inside a class
+ benefits  1.used without initialising
+           2.shared between all instance methods of class
+downsides  1.take more memory
+           2.hard to debug
+static - with key word "static"
+     upside 1.they can be share across the instance,flexible
+            2.only one memory location is reserved for static even we create a million objects in the class
+
+     downside 1.can be hard to debug
+              2.if value is changed anywhere - changed for the complete application
+
+              when to use local - always
+              instance - if we have to share something in more then one methods
+                         if we planning to creat multiple objects of a class and there objects with diff values and dif
+                         ferent objects
+               static when we should share globaly

@@ -1,0 +1,21 @@
+A constructor is a special
+ method that is automatically called when
+  an object of a class is created.
+   It is used to initialize the object
+    with the values provided as arguments
+     to the constructor. If no constructor is defined
+      in a class,
+ a default constructor is automatically created by Java.
+ 1. constructor - the same name as class name
+ 2.dont have return type not even void
+ 3. when you dont create a contsructor is a class
+ - Java creates a default contsructor for us automatically
+behind the scenes - default constructer.
+shor cut:
+right-click
+generate
+constuctor
+select the field
+ok
+public 70-80%
+

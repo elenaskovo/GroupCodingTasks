@@ -10,7 +10,7 @@ public class Car {
     int year;
 
     void drive() {
-        System.out.println("Fast");
+            System.out.println("Fast");
 
     }
     void startCar(){

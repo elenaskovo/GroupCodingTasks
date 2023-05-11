@@ -8,7 +8,7 @@ public class CarTester {
         car.model="Camry";
         car.color="White";
         car.mileage=0;
-        car.isAutomatic=true; // boolean
+
         car.startCar();
         car.turning();
 
